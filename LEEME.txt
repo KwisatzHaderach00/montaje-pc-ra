@@ -23,9 +23,17 @@ que estar publicada en internet. Lo más fácil y gratis es GitHub Pages:
 6. Abre esa dirección en el móvil para comprobar que funciona y crea el QR
    con esa dirección.
 
+SI YA LO TENÍAS PUBLICADO: en el repositorio pulsa "Add file" -> "Upload files",
+arrastra los dos archivos nuevos (index.html y pc_montaje.glb), que sustituyen a los
+anteriores, y pulsa "Commit changes". En 1-2 minutos se actualiza; el QR sigue valiendo.
+
 Uso en el móvil:
   - Se ve el modelo 3D; se puede girar con el dedo.
+  - Botones "Anterior / Siguiente": cada pieza baja a su sitio (6 pasos).
+    "Todo" reproduce el montaje completo y "Reiniciar" vuelve al principio.
   - El botón verde "Ver en tu mesa" abre la cámara y coloca el modelo
     a tamaño real sobre la superficie que apuntes.
-  - Android: necesita "Servicios de Google Play para RA" (vienen en casi todos).
-  - iPhone: se abre con AR Quick Look (Safari).
+  - Android (Chrome): los botones también funcionan DENTRO de la realidad aumentada.
+    Necesita "Servicios de Google Play para RA" (vienen en casi todos).
+  - iPhone: en RA se abre con AR Quick Look y se ve la pieza en despiece, pero
+    sin botones (Apple no lo permite); los pasos funcionan en la vista 3D.
