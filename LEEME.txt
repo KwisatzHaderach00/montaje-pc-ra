@@ -1,0 +1,31 @@
+MONTAJE DE UN PC EN REALIDAD AUMENTADA
+======================================
+
+Contenido de la carpeta:
+  - index.html       -> la página web con el visor 3D y el botón "Ver en tu mesa"
+  - pc_montaje.glb   -> el modelo 3D (placa base a tamaño real con CPU, disipador,
+                        RAM, SSD M.2, tarjeta gráfica y fuente en vista de despiece)
+
+Funciona en Android y en iPhone, sin instalar ninguna app, pero la página tiene
+que estar publicada en internet. Lo más fácil y gratis es GitHub Pages:
+
+1. Entra en https://github.com y crea una cuenta (si no tienes).
+2. Arriba a la derecha: "+" -> "New repository".
+   - Nombre: montaje-pc-ra
+   - Márcalo como "Public"
+   - Pulsa "Create repository".
+3. En el repositorio vacío, pulsa "uploading an existing file".
+   Arrastra index.html y pc_montaje.glb y pulsa "Commit changes".
+4. Ve a "Settings" -> "Pages".
+   En "Branch" elige "main" y la carpeta "/ (root)" y pulsa "Save".
+5. Espera 1-2 minutos y recarga. Arriba aparecerá la dirección, del tipo:
+      https://TU-USUARIO.github.io/montaje-pc-ra/
+6. Abre esa dirección en el móvil para comprobar que funciona y crea el QR
+   con esa dirección.
+
+Uso en el móvil:
+  - Se ve el modelo 3D; se puede girar con el dedo.
+  - El botón verde "Ver en tu mesa" abre la cámara y coloca el modelo
+    a tamaño real sobre la superficie que apuntes.
+  - Android: necesita "Servicios de Google Play para RA" (vienen en casi todos).
+  - iPhone: se abre con AR Quick Look (Safari).
